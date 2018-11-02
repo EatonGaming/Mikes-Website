@@ -1,0 +1,27 @@
+{
+  "name": "mikes-website",
+  "version": "1.0.0",
+  "description": "This repository hosts my personal website, which contains all my personal information, like a CV!",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EatonGaming/Mikes-Website.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Michael John Eaton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EatonGaming/Mikes-Website/issues"
+  },
+  "homepage": "https://github.com/EatonGaming/Mikes-Website#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
