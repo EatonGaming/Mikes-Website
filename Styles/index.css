@@ -1,0 +1,14 @@
+﻿.socialmedia-widget{
+    margin:auto;
+    margin-bottom: 15px;
+}
+
+.linkedin-widget{
+    width:250px;
+}
+
+.main-content{
+    background-color:aliceblue;
+    border-radius: 5px;
+    padding: 32px;
+}

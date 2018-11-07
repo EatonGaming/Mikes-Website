@@ -4,20 +4,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
+    <link rel="icon" href="favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/index.css"/>
 
     <title>Michael Eaton - Home</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a href="#" class="navbar-brand">Michael Eaton</a>
+        <a href="index.html" class="navbar-brand">Michael Eaton</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collaspe navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav ml-5">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Curriculum Vitae</a>
@@ -28,10 +30,14 @@
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link">GitHub</a>
+                    <a class="nav-link" href="https://github.com/EatonGaming">
+                        <img src="Resources/Images/GitHub-Mark-Light-28px.png" alt="GitHub - logo"/>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link">LinkedIn</a>
+                    <a class="nav-link" href="http://www.linkedin.com/in/michael-eaton-915a75106">
+                        <img src="Resources/Images/In-2CRev-28px-TM.png" alt="LinkedIn - Logo"/>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -40,6 +46,32 @@
         <h1>Hi!</h1>
         <p>Welcome to my personal website. Here you can find out more about me, or find links to my other social media profiles.</p>
     </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col main-content">
+                <h2>Who am I?</h2>
+                <p>My name is Michael Eaton, I'm 22 years old and I live in Cheshire, United Kingdom.</p>
+                <br />
+                <h2>What is my job?</h2>
+                <p>I'm a Software Developer! which means I am responsible for writing computer software using various programming languages such as C#, C++, and JavaScript.</p>
+                <br />
+                <h2>Who do I work for?</h2>
+                <p>
+                    I currently work for Blue Prism as a Junior Developer, which is a British software development company specializing in Robotic Process Automation. Click on their logo below to be directed to their website to find out more.
+                </p>
+                <a href="https://www.blueprism.com/">
+                    <img src="Resources/Images/BluePrism_Logo_300px.png" alt="Blue Prism logo" />
+                </a>
+            </div>
+            <div class="col-md-auto">
+                <div class="LI-profile-badge socialmedia-widget linkedin-widget" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="michael-eaton-915a75106"><a class="LI-simple-link" href='https://uk.linkedin.com/in/michael-eaton-915a75106?trk=profile-badge'>Michael Eaton</a></div>
+                <div class="github-widget socialmedia-widget" data-username="EatonGaming"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript" language="javascript"></script>
     <script src="node_modules/popper.js/dist/popper.min.js" type="text/javascript" language="javascript"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" language="javascript"></script>

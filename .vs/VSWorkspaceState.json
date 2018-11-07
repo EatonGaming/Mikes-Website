@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Resources",
+    "\\Resources\\Images",
+    "\\Styles"
   ],
+  "SelectedNode": "\\Resources\\Images\\BluePrism_Logo_300px.png",
   "PreviewInSolutionExplorer": false
 }
