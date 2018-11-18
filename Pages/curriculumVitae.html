@@ -1,5 +1,4 @@
 ﻿<!DOCTYPE html>
-
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
@@ -7,6 +6,7 @@
 
     <link rel="icon" href="..\favicon.ico" />
     <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Styles/main.css" />
 
     <title>Michael Eaton - Curriculum Vitae</title>
 </head>
@@ -22,7 +22,7 @@
                     <a class="nav-link" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="curriculumVitae.html">Curriculum Vitae</a>
+                    <a class="nav-link active" href="curriculumVitae.html">Curriculum Vitae</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About Me</a>
@@ -42,12 +42,46 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
+    <div class="container-fluid main-content">
+        <h1>Curriculum Vitae</h1>
+        <h2>Profile</h2>
+        <p>
+            I am an enthusiastic, hardworking and reliable individual currently working as a Junior Developer at Blue Prism in one of their Agile 
+            product development teams. I have a first class (honours) degree in software engineering from Sheffield Hallam University and industry 
+            experience from my placement year at Sports Direct Ltd. I have experience working with various object-oriented programming languages 
+            including C#, C++ and JavaScript as well as good working knowledge of Agile methodologies, database technologies and source control.
+        </p>
+        <br/>
+        <h2>Education</h2>
+    </div>
+    <br />
+    <div class="container-fluid">
         <div class="card">
+            <h5 class="card-header">Additional Files</h5>
             <div class="card-body">
-                <h5 class="card-title">Attached Files</h5>
-                <p class="card-text">Use the link below to download a redistributable copy as a .pdf</p>
-                <a class="card-link" href="#">Download Link</a>
+                <div class="card-deck">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Curriculum Vitae (CV)</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">.PDF File</h6>
+                            <p>This is a distributable copy of my CV.</p>
+                            <a href="#" class="btn btn-primary">Download</a>
+                        </div>
+                    </div>
+                    <div class="card attached-file-card">
+                        <div class="card-body">
+                            <h5 class="card-title">Final Year Dissertation</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">.PDF File</h6>
+                            <p>
+                                This is the report I wrote for my final year dissertation, it explains how I designed and developed the application
+                                I wrote for my final year project 'Hearthstone Assistant'. This piece of work alongside my application scored 72% (First class)
+                                for the module.
+                            </p>
+                            <a href="#" class="btn btn-primary">Download</a>
+                            <a href="https://github.com/EatonGaming/HearthstoneAssistant" class="btn btn-secondary">Link to Github</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
