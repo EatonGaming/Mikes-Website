@@ -7,6 +7,12 @@
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="Styles/main.css" />
+    <script src="Scripts/determineTimeOfDay.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+            getMessage();
+        };
+    </script>
 
     <title>Michael Eaton - Home</title>
 </head>
@@ -42,36 +48,22 @@
             </ul>
         </div>
     </nav>
-    <div class="jumbotron">
-        <h1>Hi!</h1>
-        <p>Welcome to my personal website. Here you can find out more about me, or find links to my other social media profiles.</p>
-    </div>
-    <div class="container-fluid">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4" id="welcome-title"></h1>
+            <p class="lead">
+                Hi! I'm Michael (most people call me Mike) I am a developer, father, gamer, husband and F1 fan all rolled up into one strange package. On this
+                site you can find links to my profiles on other platforms, see what stuff I've been working on while not fighting two hungry children and
+                anything else that has managed to sneak into this Git commit. Have fun!
+            </p>
+        </div>
         <div class="row">
-            <div class="col main-content">
-                <h2>Who am I?</h2>
-                <p>My name is Michael Eaton, I'm 22 years old and I live in Cheshire, United Kingdom.</p>
-                <br />
-                <h2>What is my job?</h2>
-                <p>I'm a Software Developer! which means I am responsible for writing computer software using various programming languages such as C#, C++, and JavaScript.</p>
-                <br />
-                <h2>Who do I work for?</h2>
-                <p>
-                    I currently work for Blue Prism as a Junior Developer, which is a British software development company specializing in Robotic Process Automation. Click on their logo below to be directed to their website to find out more.
-                </p>
-                <a href="https://www.blueprism.com/">
-                    <img src="Resources/Images/BluePrism_Logo_300px.png" alt="Blue Prism logo" />
-                </a>
-            </div>
-            <div class="col-md-auto">
-                <div class="LI-profile-badge socialmedia-widget linkedin-widget" data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="michael-eaton-915a75106"><a class="LI-simple-link" href='https://uk.linkedin.com/in/michael-eaton-915a75106?trk=profile-badge'>Michael Eaton</a></div>
-                <div class="github-widget socialmedia-widget" data-username="EatonGaming"></div>
+            <div class="col-sm text-center">
+                <img src="Resources/Images/mike.jpg" class="img-fluid" alt="Michael sat on steps">
             </div>
         </div>
     </div>
-
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
+        
     <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript" language="javascript"></script>
     <script src="node_modules/popper.js/dist/popper.min.js" type="text/javascript" language="javascript"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" language="javascript"></script>
